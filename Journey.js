@@ -90,61 +90,61 @@ angular.module("angular", [])
 				  /**** SEGUNDO USER JOURNEY MAP *******/
 				  /***      Cambiar datos        *******/
 				  /*************************************/
-				Id: 1,
-				Name: "Heather Soto",
-                Photo: "heather.png",
+				  	Id: 1,
+			  		Name: "Heather Soto",
+					Photo: "heather.png",
 
-				 /*** PASO #1: INSPIRACION ***/
-                goal1: "Un sábado de repente quiere ir con sus 3 niños pequeños al parque de atraccinoes",
-                touch1: "Niños",
-                feel1: "4",
-                con1: "Tiene mucho trabajo por lo que debe ser rápido",
-                ima1: "img1.jpg",
+				/*** PASO #1: INSPIRACION ***/
+					goal1: "Está en granada y un sábado de repente quiere ir con sus 3 niños pequeños al parque de atraccinoes",
+					touch1: "Niños",
+					feel1: "4",
+					con1: "Tiene mucho trabajo por lo que debe ser rápido",
+					ima1: "img1.jpg",
 
-                /*** PASO #2: DECICION ***/
-                goal2: "Buscar en internet el parque más grande y cercano",
-                touch2: "Navegador (móvil)",
-                feel2: "3",
-                con2: "No encuentra nada cercano y cada vez tiene menos tiempo",
-                ima2: "img2.jpg",
+					/*** PASO #2: DECICION ***/
+					goal2: "Usa la página para buscar un parque de atracciones o similar cerca",
+					touch2: "Navegador (móvil)",
+					feel2: "3",
+					con2: "No encuentra nada cercano y cada vez tiene menos tiempo",
+					ima2: "img2.jpg",
 
-                /*** PASO #3: ACTUA ***/
+					/*** PASO #3: ACTUA ***/
 
-                goal3: "Sale de casa y sube con los niños al coche ",
-                touch3: "Coche",
-                feel3: "3",
-                con3: "Sigue sin tener claro a que parque de atracciones ir",
-                ima3: "img4.jpg",
+					goal3: "Sale de casa y sube con los niños al coche ",
+					touch3: "Coche",
+					feel3: "3",
+					con3: "Sigue sin tener claro a que parque de atracciones ir",
+					ima3: "img4.jpg",
 
-                /*** PASO #4: OBSERVA ***/
+					/*** PASO #4: OBSERVA ***/
 
-                goal4: "Llama a una amiga para pedirle sugerencias",
-                touch4: "Móvil (whatsapp)",
-                feel4: "1",
-                con4: "Va conduciendo, se distrae con el movil y casi atropella a alguien",
-                ima4: "img3.jpg",
+					goal4: "Llama a una amiga para pedirle sugerencias",
+					touch4: "Móvil (whatsapp)",
+					feel4: "1",
+					con4: "Va conduciendo, se distrae con el movil y casi atropella a alguien",
+					ima4: "img3.jpg",
 
-                 /*** PASO #5: ANALIZA ***/
+					 /*** PASO #5: ANALIZA ***/
 
-                goal5: "Sigue la sugerencia de su amiga y llega a un pequeño parque de atracciones que estaba cerca",
-                touch5: "Parking",
-                feel5: "3",
-                con5: "Comprar pases para todos",
-                ima5: "img5.jpg",
-
-
-                /*** PASO #6: CONCLUSION ***/
-
-                goal6: "Saca las entradas y los niños se divierten en el parque y ellas es feliz viéndolos jugar",
-                touch6: "Ventanilla",
-                feel6: "4",
-                con6: "Ha perdido mucho tiempo y tendrá que trasnochar!",
-                ima6: "img6.jpg",
+					goal5: "Sigue la sugerencia de su amiga y llega a un pequeño parque de atracciones que estaba cerca",
+					touch5: "Parking",
+					feel5: "3",
+					con5: "Comprar pases para todos",
+					ima5: "img5.jpg",
 
 
+					/*** PASO #6: CONCLUSION ***/
 
-			}
-		];
+					goal6: "Saca las entradas y los niños se divierten en el parque y ellas es feliz viéndolos jugar",
+					touch6: "Ventanilla",
+					feel6: "4",
+					con6: "Ha perdido mucho tiempo y tendrá que trasnochar!",
+					ima6: "img6.jpg",
+
+
+
+		  }
+	  ];
 
 		$scope.model = $scope.Journeys[0];
 
